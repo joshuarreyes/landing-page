@@ -40,7 +40,8 @@ body{
 
 .top-section{
     gap: 70px 0px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .toptext, .top-section img{
@@ -97,6 +98,11 @@ h2{
 }
 
 .image-info img{
+    flex: 0 1 auto;
+    height: 200px;
+}
+
+.image-info img{
     border-radius: 70px;
     border-style: solid;
     border-width: 2px;
@@ -122,7 +128,7 @@ h2{
 .prompt-window{
     margin: 40px auto;
     padding: 10px 50px;
-    width: 500px;
+    width: 700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
